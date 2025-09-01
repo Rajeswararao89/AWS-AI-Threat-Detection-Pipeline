@@ -42,21 +42,28 @@ aws guardduty create-sample-findings \
 ## 📸 Project Screenshots
 
 ### 1. CloudTrail Logs
-![CloudTrail](screenshots/Cloud%20trail.png)
+![CloudTrail](screenshots/Cloud-trail.png)
+
 ### 2. GuardDuty Dashboard
-![GuardDuty Dashboard](screenshots/GuardDuty%20Dashboard.png)
+![GuardDuty Dashboard](screenshots/GuardDuty-Dashboard.png)
+
 ### 3. GuardDuty Findings
-![GuardDuty Findings](screenshots/GuardDuty%20Findings.png)
+![GuardDuty Findings](screenshots/GuardDuty-Findings.png)
+
 ### 4. EventBridge Rule
-![EventBridge](screenshots/Amazon%20EventBridge.png)
+![EventBridge](screenshots/Amazon-EventBridge.png)
+
 ### 5. Lambda Function
-![Lambda](screenshots/Lambda%20Function.png)
+![Lambda](screenshots/Lambda-Function.png)
+
 ### 6. SNS Topic
-![SNS](screenshots/SNS%20Topic.png)
+![SNS](screenshots/SNS-Topic.png)
+
 ### 7. IAM Role for GuardDuty
-![IAM Role](screenshots/IAM-Role%20For%20GuardDuty.png)
+![IAM Role](screenshots/IAM-Role-For-GuardDuty.png)
+
 ### 8. Lambda Automated Response
-![Lambda Auto Response](screenshots/GuardDuty%20Automated%20Response.png)
+![Lambda Auto Response](screenshots/GuardDuty-Automated-Response.png)
 
 
 
