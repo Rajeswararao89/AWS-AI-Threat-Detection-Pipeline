@@ -2,6 +2,17 @@
 
 This project implements an **AI-powered security pipeline** on AWS that detects suspicious activities in real-time using **Amazon GuardDuty**, and automatically triggers alerts and responses with **Lambda, EventBridge, and SNS**.
 
+## 📊 Architecture Workflow
+
+```mermaid
+flowchart LR
+    A[CloudTrail] -->|log delivery| B[GuardDuty]
+    B -->|suspicious activity detected| C[EventBridge]
+    C -->|send alert| D[SNS]
+    D -->|custom formatted email| E[Custom Email Alert]
+    C -->|auto-mitigation| F[Lambda Auto-Response]
+
+
 ## 🚀 Features
 - ✅ Real-time threat detection using **Amazon GuardDuty**
 - ✅ Automated response with **AWS Lambda**
