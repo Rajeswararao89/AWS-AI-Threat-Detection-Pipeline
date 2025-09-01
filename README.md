@@ -15,13 +15,7 @@ This project implements an **AI-powered security pipeline** on AWS that detects 
 - **Amazon GuardDuty** → AI-based anomaly & threat detection  
 - **Amazon EventBridge** → Triggers automated responses  
 - **AWS Lambda (Python)** → Parses findings, generates alerts  
-- **Amazon SNS** → Sends security alerts in real-time  
-
-## 📸 Screenshots
-(Add screenshots here later)  
-- GuardDuty detection example  
-- SNS alert received in email  
-- Lambda execution logs  
+- **Amazon SNS** → Sends security alerts in real-time    
 
 ## 📂 Project Structure
 .
@@ -44,6 +38,26 @@ aws guardduty create-sample-findings \
 - Practiced incident response workflows with automated alerting and remediation.
 - Gained experience integrating multiple AWS services into a cohesive solution.
 - Enhanced troubleshooting by simulating attacks and validating responses.
+
+## 📸 Project Screenshots
+
+### 1. CloudTrail Logs
+![CloudTrail](screenshots/Cloud%20trail.png)
+### 2. GuardDuty Dashboard
+![GuardDuty Dashboard](screenshots/GuardDuty%20Dashboard.png)
+### 3. GuardDuty Findings
+![GuardDuty Findings](screenshots/GuardDuty%20Findings.png)
+### 4. EventBridge Rule
+![EventBridge](screenshots/Amazon%20EventBridge.png)
+### 5. Lambda Function
+![Lambda](screenshots/Lambda%20Function.png)
+### 6. SNS Topic
+![SNS](screenshots/SNS%20Topic.png)
+### 7. IAM Role for GuardDuty
+![IAM Role](screenshots/IAM-Role%20For%20GuardDuty.png)
+### 8. Lambda Automated Response
+![Lambda Auto Response](screenshots/GuardDuty%20Automated%20Response.png)
+
 
 
 
